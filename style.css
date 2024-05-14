@@ -245,7 +245,7 @@
   padding-bottom: 20px;
   padding-left: 20px;
 }
-.img-card-1 {background-image: url(/img/card-1.png);}
+.img-card-1 {background-image: url(img/card-1.png);}
 
 .btn-time {
   background-color: #fff;
@@ -285,8 +285,9 @@
   letter-spacing: 0.5px;
 }
 
-.img-card-2 {background-image: url(/img/card-2.png);}
-
+.img-card-2 {background-image: url(img/card-2.png);}
+.img-card-3 { background-image: url(img/card-3.png);}
+.img-card-4 { background-image: url(img/card-4.png);}
 .footer {
   background-color: #f5f6f8;
   padding: 60px 0;
@@ -325,7 +326,7 @@
   font-weight: 400;
   font-size: 50px;
   letter-spacing: 0.8px;
-  color: #0000;
+  color: grey;
 
 
 }
@@ -368,7 +369,21 @@
   }
 }
 @media (max-width: 578px) {
-
+.navigation-holder {
+  display: none;
+}
+.mob-btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 60px;
+  color: #fff;
+}
+.header-title-text {
+  font-size: 60px;
+}
+.join {
+  display: none;
+}
 }
 
 .header-info-block {
@@ -449,4 +464,7 @@
   }
   .mob-btn {
     display: none;
+  }
+  .aslan {
+    width: 10000;
   }
